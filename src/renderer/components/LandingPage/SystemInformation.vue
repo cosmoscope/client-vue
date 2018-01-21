@@ -3,14 +3,6 @@
     <div class="title">Information</div>
     <div class="items">
       <div class="item">
-        <div class="name">Path:</div>
-        <div class="value">{{ path }}</div>
-      </div>
-      <div class="item">
-        <div class="name">Route Name:</div>
-        <div class="value">{{ name }}</div>
-      </div>
-      <div class="item">
         <div class="name">Vue.js:</div>
         <div class="value">{{ vue }}</div>
       </div>
@@ -35,9 +27,7 @@
     data () {
       return {
         electron: process.versions['atom-shell'],
-        name: this.$route.name,
         node: process.versions.node,
-        path: this.$route.path,
         platform: require('os').platform(),
         vue: require('vue/package.json').version
       }

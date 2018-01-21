@@ -1,6 +1,6 @@
-# client-vue
+# vue-client
 
-> VueJS client for Cosmoscope.
+> VueJS front-end to cosmoscope server
 
 #### Build Setup
 
