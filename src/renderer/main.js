@@ -1,12 +1,12 @@
 import Vue from 'vue'
 import axios from 'axios'
-import Buefy from 'buefy'
-import 'buefy/lib/buefy.css'
+import ElementUI from 'element-ui'
+import 'element-ui/lib/theme-chalk/index.css'
 
 import App from './App'
 import store from './store'
 
-Vue.use(Buefy)
+Vue.use(ElementUI)
 
 if (!process.env.IS_WEB) Vue.use(require('vue-electron'))
 Vue.http = Vue.prototype.$http = axios

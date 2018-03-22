@@ -1,5 +1,12 @@
 const state = {
-  main: 0
+  plotTabs: [
+    {
+      name: 'Plot 1',
+      x: [0, 1, 2, 3, 4, 5],
+      y: [1, 3, 6, 1, 3, 0],
+      mode: 'lines'
+    }
+  ]
 }
 
 const mutations = {
