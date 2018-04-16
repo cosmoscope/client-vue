@@ -1,8 +1,8 @@
 {
-  "name": "vue-client",
+  "name": "cosmoscope-vue",
   "version": "0.0.0",
-  "author": "Nicholas Earl <contact@nicholasearl.me>",
-  "description": "VueJS front-end to cosmoscope server",
+  "author": "",
+  "description": "A VueJS front-end to the cosmoscope astronomical analysis server",
   "license": null,
   "main": "./dist/electron/main.js",
   "scripts": {
@@ -22,7 +22,7 @@
     "postinstall": "npm run lint:fix"
   },
   "build": {
-    "productName": "vue-client",
+    "productName": "cosmoscope-vue",
     "appId": "org.simulatedgreg.electron-vue",
     "directories": {
       "output": "build"
@@ -56,13 +56,10 @@
     }
   },
   "dependencies": {
-    "axios": "^0.16.1",
-    "buefy": "^0.6.2",
-    "element-ui": "^2.2.2",
-    "plotly": "^1.0.6",
-    "vue": "^2.3.3",
+    "vue": "^2.4.2",
     "vue-electron": "^1.0.6",
-    "vuex": "^2.3.1"
+    "vuex": "^2.3.1",
+    "vuetify": "1.0.0"
   },
   "devDependencies": {
     "babel-core": "^6.25.0",
@@ -114,6 +111,8 @@
     "multispinner": "^0.2.1",
     "node-loader": "^0.6.0",
     "style-loader": "^0.18.2",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.1",
     "url-loader": "^0.5.9",
     "vue-html-loader": "^1.2.4",
     "vue-loader": "^13.0.5",
