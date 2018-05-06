@@ -56,10 +56,12 @@
     }
   },
   "dependencies": {
+    "@statnett/vue-plotly": "^0.1.0",
+    "plotly.js": "^1.36.1",
     "vue": "^2.4.2",
     "vue-electron": "^1.0.6",
-    "vuex": "^2.3.1",
-    "vuetify": "1.0.0"
+    "vuetify": "1.0.0",
+    "vuex": "^2.3.1"
   },
   "devDependencies": {
     "babel-core": "^6.25.0",
